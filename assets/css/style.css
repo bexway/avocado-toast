@@ -1,8 +1,28 @@
+.disappear{
+  display: none;
+}
+
+.flex{
+  display: flex;
+}
+
+.flex-around{
+  justify-content: space-around;
+}
+
+.flex-nowrap{
+  flex-wrap: nowrap;
+}
+
+.flex-start{
+  justify-content: flex-start;
+}
+
 .image{
   width: 25%;
   height:25%;
 }
 
-.disappear{
-  display: none;
+.textalign-center{
+  text-align: center;
 }

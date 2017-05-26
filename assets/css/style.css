@@ -18,6 +18,10 @@
   justify-content: flex-start;
 }
 
+.font-family-cs{
+  font-family: cursive;
+}
+
 .image{
   width: 25%;
   height:25%;

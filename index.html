@@ -39,7 +39,7 @@
       if(!houseBought){
         messageid.textContent = "Ugh, you're such a millenial. You'll never afford a house."
         moneySpent += 8;
-        toastmoneyid.textContent = moneySpent;
+        toastmoneyid.textContent = numberWithCommas(moneySpent);
       }
       else{
         messageid.textContent = "You Cannot Return To Your Youth"
@@ -51,6 +51,10 @@
         // avocadoToastid.className += " disappear";
         houseBought = true;
       }
+    }
+
+    function numberWithCommas(x) {
+      return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     }
   </script>
 </body>

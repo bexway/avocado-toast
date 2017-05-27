@@ -1,3 +1,19 @@
+body{
+    --padding-content: 1em;
+    --primary-color: #d5ff96;
+    --secondary-color: #1f3400;
+
+    background: var(--primary-color);
+}
+
+.bg-white{
+  background: white;
+}
+
+.border-content{
+  border: 2px dashed var(--secondary-color);
+}
+
 .disappear{
   display: none;
 }
@@ -25,6 +41,14 @@
 .image{
   width: 25%;
   height:25%;
+}
+
+.margin-content{
+  margin: 1em 0em;
+}
+
+.padding-content{
+  padding: var(--padding-content);
 }
 
 .textalign-center{
